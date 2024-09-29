@@ -1,0 +1,124 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "admin",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "tokenIn",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amountIn",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "minimumOutAmount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "tokenOut",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "recipient",
+						"type": "address"
+					},
+					{
+						"internalType": "address[]",
+						"name": "poolAddresses",
+						"type": "address[]"
+					}
+				],
+				"name": "multiHopSwap",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "finalOutputAmount",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/dex/Router.sol": "Router"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/dex/IERC20.sol": {
+			"keccak256": "0x4f09d0caa2089e0d8112366ecbc4da4aa4856b20e1a74d0dc72246e10403605b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e27bad1978ce9777efd65a1f259879c0c45cb01fae1754d8325efe924c937a1f",
+				"dweb:/ipfs/QmUTUzDEnhY2Heb2tzfXoK368GC3xMNbZXWzYze6aKfqke"
+			]
+		},
+		"contract/dex/Router.sol": {
+			"keccak256": "0xedf20a05f2e275f5048cc40accb8d486e58f8861368037dab9c6f088338b4a96",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2e443314bc5aa939cb6fc34bdc40f414b489e99b3030ec1c776e3a014fecc102",
+				"dweb:/ipfs/QmQTXKWcw48yU2YhrEmZ6Sdnkkamit8QZ5ucKyTtVLaGZn"
+			]
+		},
+		"contract/dex/pool.sol": {
+			"keccak256": "0xd6fbc50ea0a8be1d362924ab3a241215c86080842ca19bc28222eb707193d4ac",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a6d709b2b1bc235bfc9609bd985436ba25018422d7f402168a0ca972b7ba0fb0",
+				"dweb:/ipfs/QmZH21Jp2fwPuoyQyjkiLHV9eJsXbg56BLETdKDms3xj3p"
+			]
+		}
+	},
+	"version": 1
+}

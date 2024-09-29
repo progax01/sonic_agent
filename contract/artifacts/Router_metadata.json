@@ -1,0 +1,175 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "admin",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "poolAddress",
+								"type": "address"
+							},
+							{
+								"internalType": "address",
+								"name": "inputToken",
+								"type": "address"
+							},
+							{
+								"internalType": "address",
+								"name": "outputToken",
+								"type": "address"
+							},
+							{
+								"internalType": "uint256",
+								"name": "minAmountOut",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct Router.SwapRoute[]",
+						"name": "routes",
+						"type": "tuple[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "inputAmount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "recipient",
+						"type": "address"
+					}
+				],
+				"name": "multiHopSwap",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "finalOutputAmount",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "poolAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "inputToken",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "inputAmount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "outputToken",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "recipient",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "minAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "swapDirect",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "outputAmount",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/Router.sol": "Router"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/IERC20.sol": {
+			"keccak256": "0x4f09d0caa2089e0d8112366ecbc4da4aa4856b20e1a74d0dc72246e10403605b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e27bad1978ce9777efd65a1f259879c0c45cb01fae1754d8325efe924c937a1f",
+				"dweb:/ipfs/QmUTUzDEnhY2Heb2tzfXoK368GC3xMNbZXWzYze6aKfqke"
+			]
+		},
+		"contract/Router.sol": {
+			"keccak256": "0x061b78c54dc2bc3df64c0897bbf96922153d429bbfa371bca309152c5511941c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://613ce9f3a5cb08fa2c1f4ab467a2a250be09eb5e3e536690be89bea682079788",
+				"dweb:/ipfs/QmPhghG9gTa9nAQkkFPrxGvt3H7CxJJQuZ548kciHeygyY"
+			]
+		},
+		"contract/pool.sol": {
+			"keccak256": "0xd6fbc50ea0a8be1d362924ab3a241215c86080842ca19bc28222eb707193d4ac",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a6d709b2b1bc235bfc9609bd985436ba25018422d7f402168a0ca972b7ba0fb0",
+				"dweb:/ipfs/QmZH21Jp2fwPuoyQyjkiLHV9eJsXbg56BLETdKDms3xj3p"
+			]
+		}
+	},
+	"version": 1
+}
