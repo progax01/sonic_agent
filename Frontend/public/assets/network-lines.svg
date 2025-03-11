@@ -1,0 +1,32 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Connection lines -->
+  <g stroke="#297373" stroke-width="1" opacity="0.6" filter="url(#glow)">
+    <line x1="100" y1="100" x2="300" y2="200" />
+    <line x1="300" y1="200" x2="500" y2="150" />
+    <line x1="500" y1="150" x2="700" y2="250" />
+    <line x1="100" y1="100" x2="200" y2="300" />
+    <line x1="200" y1="300" x2="400" y2="400" />
+    <line x1="400" y1="400" x2="600" y2="350" />
+    <line x1="600" y1="350" x2="700" y2="250" />
+    <line x1="300" y1="200" x2="400" y2="400" />
+    <line x1="500" y1="150" x2="600" y2="350" />
+  </g>
+  
+  <!-- Connection nodes -->
+  <g fill="#39D0D0" opacity="0.8">
+    <circle cx="100" cy="100" r="5" />
+    <circle cx="300" cy="200" r="5" />
+    <circle cx="500" cy="150" r="5" />
+    <circle cx="700" cy="250" r="5" />
+    <circle cx="200" cy="300" r="5" />
+    <circle cx="400" cy="400" r="5" />
+    <circle cx="600" cy="350" r="5" />
+  </g>
+</svg> 
