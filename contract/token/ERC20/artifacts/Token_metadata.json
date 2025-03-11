@@ -466,7 +466,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contract/token/ERC20/implementation.sol": "Token"
+			"contract/token/ERC20/implementation.sol": "token"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -505,11 +505,11 @@
 			]
 		},
 		"contract/token/ERC20/implementation.sol": {
-			"keccak256": "0x5b3c5513d79452f6cc0d3bb123b4f699521ae1fc25ee132514a5abda1a37677d",
+			"keccak256": "0x0c09995e3b33f9dce3129f65dc199dca7d13bbaf5f019f23ac0f1cf57b0ad2b7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c9246ce241f042fc1f32cfb7b289de2adab80c4b3d9c46f94797de5bc62351a9",
-				"dweb:/ipfs/QmY53M7gLYFvx8dmbzXrqExnxg8HR8P7zPNe2LorA54dtm"
+				"bzz-raw://72750c464282bde7d8a6ecbd44a0058116edefc8eab780baf4a7876349431c01",
+				"dweb:/ipfs/QmYxsLhG3mCdEdCTVERAYYJ9M2zNEURy1den8hmb93dkiV"
 			]
 		},
 		"contract/token/interfaces/draft-IERC6093.sol": {
